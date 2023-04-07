@@ -1,0 +1,100 @@
+/* Fonts */
+
+.curs {
+    font-family: 'Dancing Script', cursive;
+}
+
+.bask {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.cabin {
+    font-family: 'Cabin', sans-serif;
+}
+
+/* Navbar */
+
+.logo {
+    width: 90px;
+}
+
+.nav-link {
+    color: rgb(202, 162, 99);
+    margin: 0 1.5em;
+}
+
+/* Hero Section */
+
+.hero {
+    background-image: url(/assets/img/carousel2.webp);
+    height: 100dvh;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-mask {
+    background-color: rgba(202, 162, 99, 0.3);
+}
+
+.hero-heading {
+    color: rgb(225, 31, 39);
+    font-weight: bold;
+}
+
+/* Products Section */
+
+.products {
+    background-image: url(/assets/img/tools.jpg);
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: white;
+}
+
+/* Contact Section */
+
+.contact {
+    background-image: url(/assets/img/salao-beleza-12.jpg);
+}
+
+.box {
+    background-color: black;
+}
+
+.form-control {
+    border: 1px solid white !important;
+    border-radius: 0 !important;
+}
+
+.form-control, .form-control::placeholder, .form-control:hover, .form-control:focus {
+    background-color: black;
+    color: white;
+}
+
+.textarea {
+    height: 8.05em;
+}
+
+.btn {
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #fcd2c0;
+    color: black;
+}
+
+/* Other */ 
+
+h1.curs::before {
+    content:'';
+    display: block;
+    margin: 10px auto;
+    width: 2em;
+    height: 2px;
+    background-color: white;
+}
